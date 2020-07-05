@@ -1,0 +1,24 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Pure Javascript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matvey22122/excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Matvey Karpov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matvey22122/excel/issues"
+  },
+  "homepage": "https://github.com/matvey22122/excel#readme"
+}
