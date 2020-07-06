@@ -28,7 +28,7 @@ const jsLoaders = () => {
 
 module.exports = {
   context: path.resolve(__dirname, 'src'),
-  mode: 'development',
+  mode: isDev ? 'development' : 'production',
   entry: ['@babel/polyfill', './index.js'],
   output: {
     filename: filename('js'),
@@ -75,7 +75,7 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              hmt: isDev,
+              hmr: isDev,
               reloadAll: true,
             }
           },
